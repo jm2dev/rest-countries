@@ -11,4 +11,12 @@ country.
 /          list countries
 /es        list spanish regions
 /es/murcia list cities in Region of Murcia
+/info      information page
 #+END_SRC
+
+** SBT plugins
+
+   * ensime generate, to create ensime file
+
+   * start script, to generate script to launch main class
+  
