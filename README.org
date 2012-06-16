@@ -1,0 +1,14 @@
+* REST Countries
+
+** Description
+
+REST web service providing information of cities or regions by
+country.
+
+** Usage
+
+#+BEGIN_SRC sh
+/          list countries
+/es        list spanish regions
+/es/murcia list cities in Region of Murcia
+#+END_SRC
