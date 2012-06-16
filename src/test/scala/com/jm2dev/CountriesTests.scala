@@ -4,7 +4,7 @@ import org.scalatra.test.scalatest._
 import org.scalatest.FunSuite
 
 class CountriesTests extends ScalatraSuite with FunSuite {
-  addFilter(classOf[Countries], "/*")
+  addServlet(classOf[Countries], "/*")
 
   test("Info page") {
     get("/info") {
