@@ -12,4 +12,14 @@ class CountriesTests extends ScalatraSuite with FunSuite {
       body should include ("Information page")
     }
   }
+
+  test("Countries") {
+    get("/") {
+      status should equal (200)
+      body should include ("Espanya")
+      body should include ("United Kingdom")
+      body should include ("Scotland")
+      body should include ("Wales")
+    }
+  }
 }
